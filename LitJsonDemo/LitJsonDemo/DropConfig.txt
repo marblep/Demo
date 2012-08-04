@@ -1,0 +1,10 @@
+{
+	"DropConfig":
+	[
+		{"Event":"Kill",   		"TeamDeath":"T&X", "Capture":"X",   "HotPotato":"T" },
+		{"Event":"Assist", 		"TeamDeath":"T&X", "Capture":"X&T", "HotPotato":"T" },
+		{"Event":"DoubleKill",  "TeamDeath":"X",   "Capture":"",  	"HotPotato":"T&X" },
+		{"Event":"TripleKill",  "TeamDeath":"",    "Capture":"X", 	"HotPotato":"X" },
+		{"Event":"GetSelfFlag", "TeamDeath":"X&T", "Capture":"T",  	"HotPotato":"" }
+	]
+}

@@ -63,6 +63,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="BHB\CaptureType.cs" />
+    <Compile Include="BHB\GameType.cs" />
+    <Compile Include="BHB\HotPotatoType.cs" />
+    <Compile Include="BHB\TeamDeathType.cs" />
     <Compile Include="LitJson\IJsonWrapper.cs" />
     <Compile Include="LitJson\JsonData.cs" />
     <Compile Include="LitJson\JsonException.cs" />
