@@ -1,10 +1,10 @@
 {
 	"DropConfig":
 	[
-		{"Event":"Kill",   		"TeamDeath":"T&X", "Capture":"X",   "HotPotato":"T" },
-		{"Event":"Assist", 		"TeamDeath":"T&X", "Capture":"X&T", "HotPotato":"T" },
-		{"Event":"DoubleKill",  "TeamDeath":"X",   "Capture":"",  	"HotPotato":"T&X" },
-		{"Event":"TripleKill",  "TeamDeath":"",    "Capture":"X", 	"HotPotato":"X" },
-		{"Event":"GetSelfFlag", "TeamDeath":"X&T", "Capture":"T",  	"HotPotato":"" }
+		{"Event":"Kill",   		"TeamDeathType":"T&X", "CaptureType":"X",   "HotPotatoType":"T" },
+		{"Event":"Assist", 		"TeamDeathType":"T&X", "CaptureType":"X&T", "HotPotatoType":"T" },
+		{"Event":"DoubleKill",  "TeamDeathType":"X",   "CaptureType":"",  	"HotPotatoType":"T&X" },
+		{"Event":"TripleKill",  "TeamDeathType":"",    "CaptureType":"X", 	"HotPotatoType":"X" },
+		{"Event":"GetSelfFlag", "TeamDeathType":"X&T", "CaptureType":"T",  	"HotPotatoType":"" }
 	]
 }

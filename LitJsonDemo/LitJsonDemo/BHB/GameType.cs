@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 
-class GameType
+public class GameType
 {
 
 
