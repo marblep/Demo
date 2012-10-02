@@ -10,7 +10,8 @@ namespace CSharp_Learning
         static void Main(string[] args)
         {
             //LambdaTest.Run();
-            EventTest.Run();
+            //EventTest.Run();
+            SocketTest.Run();
 
             Console.ReadLine();
         }
